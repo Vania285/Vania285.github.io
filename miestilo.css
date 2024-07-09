@@ -1,0 +1,76 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para la barra de navegación */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+/* Estilo para los encabezados */
+h1 {
+    color: #0056b3;
+    text-align: center;
+}
+
+h3 {
+    color: #ff6600;
+}
+
+/* Estilo para los párrafos */
+p {
+    margin: 20px;
+    text-align: justify;
+}
+
+/* Estilo para las listas */
+ul {
+    margin: 20px;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Estilo para la imagen */
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilo para el pie de página */
+address {
+    font-style: italic;
+    text-align: center;
+    margin: 20px;
+    color: #666;
+}
